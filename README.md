@@ -1,14 +1,30 @@
-# Deep Dreams
-*Este proyecto explora la fascinante técnica de DeepDream, que utiliza redes neuronales convolucionales (CNN) para generar imágenes psicodélicas y surrealistas*. 
-*La idea detrás de DeepDream es visualizar las características aprendidas por una CNN al maximizar la activación de ciertas neuronas en capas intermedias*.
+# DeepDreams
+
+Este proyecto explora la técnica de **DeepDream**, que utiliza redes neuronales convolucionales (CNN) para generar imágenes psicodélicas y surrealistas. La idea es visualizar las características aprendidas por una CNN maximizando la activación de ciertas neuronas en capas intermedias.
 
 ## ¿Qué es DeepDream?
--DeepDream se basa en la técnica de optimización llamada gradiente ascendente, que ajusta la entrada (una imagen) para maximizar la activación de una neurona específica. Al aplicar esta técnica iterativamente a una imagen, se generan patrones y formas interesantes.
 
-👉🏻Cómo usar este repositorio
--Clona este repositorio en tu máquina local:
-`git clone https://github.com/hache22/deep-dreams.git`.
+DeepDream se basa en el gradiente ascendente: se ajusta iterativamente una imagen de entrada para maximizar la activación de una neurona específica de la red, generando patrones y formas visuales característicos.
 
-👉🏻Instala las dependencias necesarias (por ejemplo, TensorFlow, NumPy, etc.):
-`pip install -r requirements.txt`
+## Contenido
 
+- `DeepDreams.ipynb` — notebook con la implementación de la técnica.
+- `stary_night.jpg`, `1339248.png` — imágenes de entrada utilizadas como base.
+- `requirements.txt`, `Pipfile` — dependencias del proyecto.
+
+## Cómo usar este repositorio
+
+```bash
+git clone https://github.com/HoracioLaphitz/DeepDreams.git
+cd DeepDreams
+pip install -r requirements.txt
+jupyter notebook DeepDreams.ipynb
+```
+
+## Tecnologías
+
+Python · TensorFlow · NumPy
+
+## Autor
+
+Horacio Laphitz — [GitHub](https://github.com/HoracioLaphitz) · [LinkedIn](https://www.linkedin.com/in/horacio-laphitz)
